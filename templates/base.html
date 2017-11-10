@@ -8,16 +8,16 @@
   {% block body %}
   <body>
 
-    <center>
-
       <h1>{{ title }}</h1>
-      <h3>{{ date }}</h3>
       <h2>{{ copyright }}</h2>
-
-      <img src={{ hdurl }}>{{ title }}</img>
+      {{ date }}
+      <br>
+      <br>
       {{ explanation }}
+      <br>
+      <br>
+      <img src={{ hdurl }}></img>
 
-    </center>
 
   </body>
   {% endblock %}
